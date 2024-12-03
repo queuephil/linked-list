@@ -119,7 +119,7 @@ function node(value = null, nextNode = null) {
 const list = linkedList()
 const testArray = ['dog', 'cat', 'parrot', 'hamster', 'snake', 'turtle']
 
-// testArray.map((string) => list.append(string)), console.log(list.toString())
+testArray.map((string) => list.append(string)), console.log(list.toString())
 // testArray.map((string) => list.prepend(string)), console.log(list.toString())
 // console.log(list.size())
 // console.log(list.head())
