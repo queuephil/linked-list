@@ -90,8 +90,6 @@ function hash(key, capacity) {
   return hashCode % capacity
 }
 
-function resize(hashMap) {}
-
 test.set('apple', 'red')
 test.set('banana', 'yellow')
 test.set('carrot', 'orange')
